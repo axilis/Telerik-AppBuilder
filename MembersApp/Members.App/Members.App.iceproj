@@ -1,0 +1,212 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <ProjectGuid>08724795-9f87-4b2a-aa08-93f1d31c9744</ProjectGuid>
+    <ProjectTypeGuids>{070BCB52-5A75-4F8C-A973-144AF0EAFCC9}</ProjectTypeGuids>
+    <OutputType>Library</OutputType>
+    <AppDesignerFolder>Properties</AppDesignerFolder>
+  </PropertyGroup>
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)' == 'Debug' ">
+    <OutputPath>bin\Debug\</OutputPath>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)' == 'Release' ">
+    <OutputPath>bin\Release\</OutputPath>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+  </PropertyGroup>
+  <ItemGroup>
+    <None Include=".abignore" />
+    <Content Include=".abproject" />
+    <Content Include=".app.json" />
+    <Content Include=".debug.abproject" />
+    <Content Include=".release.abproject" />
+    <Content Include=".yo-rc.json" />
+    <Content Include="app.js" />
+    <Content Include="App_Resources\Android\drawable-hdpi\splashscreen.png" />
+    <Content Include="App_Resources\Android\drawable-ldpi\splashscreen.png" />
+    <Content Include="App_Resources\Android\drawable-mdpi\splashscreen.png" />
+    <Content Include="App_Resources\Android\drawable-xhdpi\icon.png" />
+    <Content Include="App_Resources\Android\drawable-xhdpi\splashscreen.png" />
+    <Content Include="App_Resources\Android\drawable-xxhdpi\icon.png" />
+    <Content Include="App_Resources\Android\drawable-xxhdpi\splashscreen.png" />
+    <Content Include="App_Resources\Android\drawable-xxxhdpi\icon.png" />
+    <Content Include="App_Resources\Android\drawable-xxxhdpi\splashscreen.png" />
+    <Content Include="components\map\map.html" />
+    <Content Include="components\map\map.js" />
+    <Content Include="components\test\test.html">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="components\test\test.js">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="components\details\details.html">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="components\details\details.js">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="components\home\home.html">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="components\home\home.js">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="components\members\members.html">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="components\members\members.js">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="components\settings\settings.html">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="components\settings\settings.js">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="cordova.android.js" />
+    <Content Include="cordova.ios.js" />
+    <Content Include="cordova.wp8.js" />
+    <Content Include="index.html" />
+    <Resource Include="App_Resources\Android\drawable-hdpi\icon.png" />
+    <Resource Include="App_Resources\Android\drawable-ldpi\icon.png" />
+    <Resource Include="App_Resources\Android\drawable-mdpi\icon.png" />
+    <Resource Include="App_Resources\Android\drawable-nodpi\splashscreen.9.png" />
+    <Resource Include="App_Resources\iOS\Default-568h@2x.png" />
+    <Resource Include="App_Resources\iOS\Default-667h.png" />
+    <Resource Include="App_Resources\iOS\Default-736h.png" />
+    <Resource Include="App_Resources\iOS\Default-Landscape-667h.png" />
+    <Resource Include="App_Resources\iOS\Default-Landscape-736h.png" />
+    <Resource Include="App_Resources\iOS\Default-Landscape.png" />
+    <Resource Include="App_Resources\iOS\Default-Landscape@2x.png" />
+    <Resource Include="App_Resources\iOS\Default-Portrait.png" />
+    <Resource Include="App_Resources\iOS\Default-Portrait@2x.png" />
+    <Resource Include="App_Resources\iOS\Default.png" />
+    <Resource Include="App_Resources\iOS\Default@2x.png" />
+    <Resource Include="App_Resources\iOS\icon-40.png" />
+    <Resource Include="App_Resources\iOS\icon-40@2x.png" />
+    <Resource Include="App_Resources\iOS\Icon-40@3x.png" />
+    <Resource Include="App_Resources\iOS\icon-60.png" />
+    <Resource Include="App_Resources\iOS\icon-60@2x.png" />
+    <Resource Include="App_Resources\iOS\Icon-60@3x.png" />
+    <Resource Include="App_Resources\iOS\icon-72.png" />
+    <Resource Include="App_Resources\iOS\icon-72@2x.png" />
+    <Resource Include="App_Resources\iOS\icon-76.png" />
+    <Resource Include="App_Resources\iOS\icon-76@2x.png" />
+    <Resource Include="App_Resources\iOS\Icon-Small-50.png" />
+    <Resource Include="App_Resources\iOS\Icon-Small-50@2x.png" />
+    <Resource Include="App_Resources\iOS\Icon-Small.png" />
+    <Resource Include="App_Resources\iOS\Icon-Small@2x.png" />
+    <Resource Include="App_Resources\iOS\icon.png" />
+    <Resource Include="App_Resources\iOS\icon@2x.png" />
+    <Resource Include="App_Resources\iOS\watch-172x172.png" />
+    <Resource Include="App_Resources\iOS\watch-196x196.png" />
+    <Resource Include="App_Resources\iOS\watch-48x48.png" />
+    <Resource Include="App_Resources\iOS\watch-55x55.png" />
+    <Resource Include="App_Resources\iOS\watch-58x58.png" />
+    <Resource Include="App_Resources\iOS\watch-80x80.png" />
+    <Resource Include="App_Resources\iOS\watch-87x87.png" />
+    <Resource Include="App_Resources\iOS\watch-88x88.png" />
+    <Resource Include="App_Resources\WP8\ApplicationIcon.png" />
+    <Resource Include="App_Resources\WP8\SplashScreenImage.jpg" />
+    <Resource Include="App_Resources\WP8\Assets\BadgeLogo.png" />
+    <Resource Include="App_Resources\WP8\Assets\Logo.png" />
+    <Resource Include="App_Resources\WP8\Assets\SplashScreen.png" />
+    <Resource Include="App_Resources\WP8\Assets\SquareTile150x150.png" />
+    <Resource Include="App_Resources\WP8\Assets\SquareTile71x71.png" />
+    <Resource Include="App_Resources\WP8\Assets\StoreLogo.png" />
+    <Resource Include="App_Resources\WP8\Assets\WideLogo.png" />
+    <Resource Include="App_Resources\WP8\Tiles\Iconic\110x110.png" />
+    <Resource Include="App_Resources\WP8\Tiles\Iconic\202x202.png" />
+    <Content Include="kendo\js\jquery.min.js" />
+    <Content Include="kendo\js\kendo.mobile.min.js" />
+    <Content Include="kendo\styles\kendo.mobile.all.min.css" />
+    <Content Include="kendo\styles\images\back.png" />
+    <Content Include="kendo\styles\images\kendoui.svg" />
+    <Content Include="kendo\styles\images\kendoui.ttf" />
+    <Content Include="kendo\styles\images\kendoui.woff" />
+    <Content Include="kendo\styles\images\wp8_icons.png" />
+    <Content Include="kendo\styles\images\wp8_inverseicons.png" />
+    <TypeScriptCompile Include="kendo\typescript\jquery.d.ts" />
+    <TypeScriptCompile Include="kendo\typescript\kendo.mobile.d.ts" />
+    <Content Include="Plugins\nativepagetransitions-0-5-5\.gitignore" />
+    <Content Include="Plugins\nativepagetransitions-0-5-5\adapters\NativePageTransitionsIonicAdapter.js" />
+    <Content Include="Plugins\nativepagetransitions-0-5-5\adapters\NativePageTransitionsKendoAdapter.js" />
+    <Content Include="Plugins\nativepagetransitions-0-5-5\demo\index.html" />
+    <Content Include="Plugins\nativepagetransitions-0-5-5\demo\jqmdemo.html" />
+    <Content Include="Plugins\nativepagetransitions-0-5-5\demo\kendouidemo.html" />
+    <Content Include="Plugins\nativepagetransitions-0-5-5\demo\standalone.html" />
+    <Content Include="Plugins\nativepagetransitions-0-5-5\package.json" />
+    <Content Include="Plugins\nativepagetransitions-0-5-5\plugin.xml" />
+    <Content Include="Plugins\nativepagetransitions-0-5-5\README.md" />
+    <Content Include="Plugins\nativepagetransitions-0-5-5\src\android\lib\AnimationFactory.java" />
+    <Content Include="Plugins\nativepagetransitions-0-5-5\src\android\lib\FlipAnimation.java" />
+    <Content Include="Plugins\nativepagetransitions-0-5-5\src\android\NativePageTransitions.java" />
+    <Content Include="Plugins\nativepagetransitions-0-5-5\src\ios\AppDelegate+nativepagetransitions.h" />
+    <Content Include="Plugins\nativepagetransitions-0-5-5\src\ios\AppDelegate+nativepagetransitions.m" />
+    <Content Include="Plugins\nativepagetransitions-0-5-5\src\ios\NativePageTransitions.h" />
+    <Content Include="Plugins\nativepagetransitions-0-5-5\src\ios\NativePageTransitions.m" />
+    <Content Include="Plugins\nativepagetransitions-0-5-5\src\winphone\NativePageTransitions.cs" />
+    <Content Include="Plugins\nativepagetransitions-0-5-5\www\NativePageTransitions.js" />
+    <Content Include="res\PackageIcons.Android.ic_launcher_96_96.png" />
+    <Content Include="res\PackageIcons.Android.splash_720_1280.png" />
+    <Content Include="styles\main.css" />
+  </ItemGroup>
+  <ItemGroup>
+    <Folder Include="App_Resources\" />
+    <Folder Include="App_Resources\Android\" />
+    <Folder Include="App_Resources\Android\drawable-hdpi\" />
+    <Folder Include="App_Resources\Android\drawable-ldpi\" />
+    <Folder Include="App_Resources\Android\drawable-mdpi\" />
+    <Folder Include="App_Resources\Android\drawable-nodpi\" />
+    <Folder Include="App_Resources\Android\drawable-xhdpi\" />
+    <Folder Include="App_Resources\Android\drawable-xxhdpi\" />
+    <Folder Include="App_Resources\Android\drawable-xxxhdpi\" />
+    <Folder Include="App_Resources\iOS\" />
+    <Folder Include="App_Resources\WP8\" />
+    <Folder Include="App_Resources\WP8\Assets\" />
+    <Folder Include="App_Resources\WP8\Tiles\" />
+    <Folder Include="App_Resources\WP8\Tiles\Iconic\" />
+    <Folder Include="bower_components\" />
+    <Folder Include="components\" />
+    <Folder Include="components\map\" />
+    <Folder Include="components\test\" />
+    <Folder Include="components\details\" />
+    <Folder Include="components\home\" />
+    <Folder Include="components\members\" />
+    <Folder Include="components\settings\" />
+    <Folder Include="kendo\" />
+    <Folder Include="kendo\js\" />
+    <Folder Include="kendo\styles\" />
+    <Folder Include="kendo\styles\images\" />
+    <Folder Include="kendo\typescript\" />
+    <Folder Include="Plugins\" />
+    <Folder Include="Plugins\nativepagetransitions-0-5-5\" />
+    <Folder Include="Plugins\nativepagetransitions-0-5-5\adapters\" />
+    <Folder Include="Plugins\nativepagetransitions-0-5-5\demo\" />
+    <Folder Include="Plugins\nativepagetransitions-0-5-5\src\" />
+    <Folder Include="Plugins\nativepagetransitions-0-5-5\src\android\" />
+    <Folder Include="Plugins\nativepagetransitions-0-5-5\src\android\lib\" />
+    <Folder Include="Plugins\nativepagetransitions-0-5-5\src\ios\" />
+    <Folder Include="Plugins\nativepagetransitions-0-5-5\src\winphone\" />
+    <Folder Include="Plugins\nativepagetransitions-0-5-5\www\" />
+    <Folder Include="res\" />
+    <Folder Include="styles\" />
+  </ItemGroup>
+  <Import Project="$(IceniumTargets)Build.targets" />
+  <!--
+    TODO: Uncomment this code if you need to customize the build process.
+    <Target Name="BeforeBuild">
+        <Message Text="TODO: Implement BeforeBuild" Importance="high" />
+    </Target>
+
+    <Target Name="AfterBuild">
+        <Message Text="TODO: Implement AfterBuild" Importance="high" />
+    </Target>
+    -->
+</Project>

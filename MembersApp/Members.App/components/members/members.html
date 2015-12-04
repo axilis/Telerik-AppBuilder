@@ -1,0 +1,10 @@
+<div data-role="view" data-title="Members" data-layout="main-add" data-init="app.members.initListView" data-use-native-scrolling="false" data-model="app.members" data-show="app.members.onShow" data-after-show="app.members.afterShow">
+    
+    <ul id="listViewMembers" data-role="listview" data-bind="click: goToDetails"></ul>
+
+    <script type="text/x-kendo-template" id="contactsTemplate">
+        <div class="bold">${FirstName} ${LastName}</div>
+        <div>${Street}, ${City}</div>
+    </script>
+    
+</div>

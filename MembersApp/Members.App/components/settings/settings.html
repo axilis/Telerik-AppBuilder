@@ -1,0 +1,24 @@
+<div data-role="view" data-title="Settings" data-layout="main" data-model="app.settings" data-show="app.settings.onShow" data-after-show="app.settings.afterShow" >
+
+    <h1>Service</h1>
+  
+    <ul data-role="listview">
+        <li>
+            <label>
+                Service url
+                <input id="Text1" type="text" data-bind="value: url" />
+            </label>
+        </li>
+    </ul>
+
+    <button data-role="button" data-bind="click: saveSettings" class="blockBtn">Save</button>
+
+    <button data-role="button" data-bind="click: loadSettings" class="blockBtn" style="color: #ff0000;">Cancel</button>
+
+    <h1>Push</h1>
+
+    <div style="text-align: center;">
+        <a id="registerButton" style="width: 90%;" data-role="button" data-bind="click: registerForPush" class="blockBtn">Register for Push</a>
+    </div>
+
+</div>

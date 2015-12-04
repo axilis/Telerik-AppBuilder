@@ -1,0 +1,61 @@
+<div id="viewD" data-role="view" data-title="Details" data-layout="main-nonav" data-transition="slide" data-model="app.details" data-show="app.details.onShow" data-after-show="app.details.afterShow">
+
+    <h1>
+        <span data-bind="text: Member.FirstName"></span> <span data-bind="text: Member.LastName"></span>
+
+    </h1>
+
+    <ul data-role="listview" data-style="inset" onclick="">
+        <li>
+            <label>
+                First name
+                <input type="text" data-bind="value: Member.FirstName" data-value-update="input" />
+            </label>
+        </li>
+
+        <li>
+            <label>
+                Last name
+                <input type="text" data-bind="value: Member.LastName" data-value-update="input" />
+            </label>
+        </li>
+        <li>
+            <label>
+                Street
+                <input type="text" data-bind="value: Member.Street" data-value-update="input" />
+            </label>
+        </li>
+        <li>
+            <label>
+                City
+                <input type="text" data-bind="value: Member.City" data-value-update="input" />
+            </label>
+        </li>
+        <li>
+            <label>
+                PO
+                <input type="text" data-bind="value: Member.PB" data-value-update="input" />
+            </label>
+        </li>
+
+        <li>
+            Visible
+            <input type="checkbox" data-role="switch" data-bind="checked: Member.Visible" />
+        </li>
+
+        <!--<li>
+            <label>
+                Id
+                <input type="text" data-bind="value: Member.MemberId" data-value-update="input" />
+            </label>
+        </li>-->
+
+    </ul>
+
+    <a data-role="button" data-rel="actionsheet" href="#actionsheet" class="blockBtn" style="color: red;">Delete</a>
+    <ul id="actionsheet" data-role="actionsheet" data-cancel="Cancel">
+        <li><a data-bind="click: deleteData">Yes</a></li>
+    </ul>
+
+
+</div>

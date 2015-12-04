@@ -1,0 +1,80 @@
+<div data-role="view" data-title="Test" data-layout="main" data-model="app.test" data-show="app.test.onShow" data-after-show="app.test.afterShow" data-use-native-scrolling="true">
+
+    <h1>
+
+        Contact picker
+
+    </h1>
+
+    <ul data-role="listview">
+        <li>
+            <label>
+                Contact id
+                <input id="Text1" type="text" data-bind="value: id" />
+            </label>
+        </li>
+
+        <li>
+            <label>
+                display Name
+                <input id="Text1" type="text" data-bind="value: displayName" />
+            </label>
+        </li>
+        <li>
+            <label>
+                phone Numbers
+                <input id="Text1" type="text" data-bind="value: phoneNumbers" />
+            </label>
+        </li>
+    </ul>
+    <div style="text-align:center;">
+
+        <button id="btnScan" data-bind="click: pick" data-role="button" data-icon="add">Pick contact</button>
+        <button data-role="button" data-icon="share" data-bind="click: share">Share</button>
+        
+
+
+    </div>
+
+    <h1>
+
+        Transitions
+
+    </h1>
+
+    <ul data-role="listview">
+        <li>
+            <label>
+                High speed
+                <input data-role="switch" id="slide-highspeed-switch" checked="checked" />
+            </label>
+        </li>
+        <li><label>Overlap views<input data-role="switch" id="slide-overlap-switch" checked="checked" /></label> </li>
+    </ul>
+
+    <button data-role="button" data-icon="info" data-bind="click: slideRight" class="blockBtn">Slide</button>
+
+
+
+    <h1>
+        Barcode scanner
+    </h1>
+
+    <ul data-role="listview">
+        <li>
+            <label>
+                Barcode
+                <input id="Text1" type="text" data-bind="value: barcodeResult" readonly />
+            </label>
+        </li>
+        <li>
+            <label>
+                Type
+                <input id="Text1" type="text" data-bind="value: barcodeType" readonly />
+            </label>
+        </li>
+    </ul>
+
+    <button id="btnScan" data-role="button" data-bind="click: scan"  class="blockBtn">Scan</button>
+
+</div>
